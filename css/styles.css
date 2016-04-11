@@ -1,0 +1,130 @@
+body {
+  /*Typography Declaration */
+  color: #7f7f7f;
+  font-family: Noto Sans, sans-serif;
+  margin: 0;
+}
+
+.masthead-intro,
+.masthead-heading {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('https://images.unsplash.com/photo-1416339684178-3a239570f315?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1c94ff9e48274a10aae3256b5d0bc83b');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #ed8b03; 
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-size: 3em;
+  color: white;
+  text-shadow: 1px 1px 8px #3c3838;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-size: 8em;
+  color: white;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 10px #3c3838;
+}
+
+.intro-section,
+.location-section,
+.questions-section {
+  max-width: 30em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3em;
+}
+
+.questions-section >h1 {
+  /* Typography Declarations */
+  font-family: Noto Sans, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: #ed8b03;
+  text-align: center;
+  margin-top: 3em;
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
+
+.content-footer >p {
+  color: white;
+}
+
+.sites >li {
+  display: inline-block;
+  padding-bottom: 2em;
+  padding: 1em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section >p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: #7f7f7f;
+}
+
+h1 {
+  color: #7f7f7f;
+}
+
+h2 {
+  color: #ed8b03;
+  font-size: 1.2em;
+  margin-top: 2em;
+}
+
+footer a:link {
+  color: #012c57;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: #8b475d;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+footer a:active {
+  color: #9bbabf;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+  .content-footer {
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+  }
+}
